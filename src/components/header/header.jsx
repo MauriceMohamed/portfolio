@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './cta'
 import ME from '../../assets/me.jpg'
 import HeaderSocials from './headerSocials'
+import SCROLL from './SCROLL'
 const header = () => {
   return (
     <header>
@@ -12,6 +13,8 @@ const header = () => {
         <h5 className='text-light'>junior devlopper</h5>
         <CTA />
         <HeaderSocials />
+        <SCROLL/>
+        
 
         <div className='me'>
           <img src={ME} alt='me' />
